@@ -1,0 +1,6 @@
+@pratices_angular_CURD_HostAddress = http://localhost:5128
+
+GET {{pratices_angular_CURD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
