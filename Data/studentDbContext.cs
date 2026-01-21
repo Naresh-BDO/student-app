@@ -8,6 +8,8 @@ namespace pratices_angular_CURD.Data
         public studentDbContext(DbContextOptions<studentDbContext> options) : base(options) { }
 
         public DbSet<Student> Students { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 
 }
